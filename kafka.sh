@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export __kafka=/opt/kafka/bin
+export __kafka=/opt/bitnami/kafka/bin
 export KAFKA_BROKERS="kafka:9092"
 
 kafkaversion() {

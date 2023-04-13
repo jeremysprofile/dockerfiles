@@ -1,5 +1,12 @@
 There is no automation.
 ```bash
+dcon jeremydr2/kafka:latest
+dbuild
+dpush
+```
+
+Using:
+```bash
 dockerstart() {
     [[ "$__os" == 'mac' ]] || { echo "This only runs on macOS." >&2; return 2; }
     echo "-- Starting Docker.app, if necessary..."
