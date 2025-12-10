@@ -1,4 +1,4 @@
-FROM bitnami/kafka:3.4.0
+FROM bitnamilegacy/kafka:3.9.0-debian-12-r9
 COPY kafka.sh /
 USER root
 RUN apt-get update && apt-get install -y dnsutils netcat
