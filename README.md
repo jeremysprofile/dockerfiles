@@ -5,6 +5,13 @@ dbuild
 dpush
 ```
 
+Use it:
+```bash
+ktest jeremydr/kafka
+export KAFKA_BROKERS=""
+kafkaversion
+```
+
 Using:
 ```bash
 dockerstart() {
